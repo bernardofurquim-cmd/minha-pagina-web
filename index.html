@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechNews - Notícias de Tecnologia</title>
+    <link rel="stylesheet" href="style.css">   <!-- ← ADICIONADO -->
 </head>
 <body>
 
@@ -292,19 +293,16 @@
             </td>
         </tr>
     </table>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-
     const botaoLeiaMais = document.querySelector('a[href="#"]');
-
     if (botaoLeiaMais) {
         botaoLeiaMais.addEventListener("click", function(event) {
             event.preventDefault();
-
             alert("Em breve você poderá ler a notícia completa sobre Inteligência Artificial!");
         });
     }
-
 });
 </script>
 </body>
